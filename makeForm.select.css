@@ -1,0 +1,83 @@
+.mfContainer {
+	/* This is the container  */
+	height: 34px;
+	display: inline-block;
+	position: relative;
+	margin: 5px;
+	/* Font settings */
+	font-size: 11px;
+	font-family: arial;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.mfContainer .selectBox {
+	height: 36px;
+	line-height: 36px;
+	width: 150px;
+	margin: 0px;
+	/* Font settings */
+	text-align: center;
+	color: #FFFFFF;
+	
+	background: url("img/down-arrow.png") no-repeat 125px center #444;
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.mfContainer .selectBox:hover, .mfContainer .selectBox.expanded {
+	/* Modify, if needed */
+	background: url("img/down-arrow.png") no-repeat 125px center #444;
+}
+.mfContainer .dropDownForm {
+    background: url("img/fancy_deboss.png") repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #32333B;
+    box-shadow: 0 0 4px #111111;
+    left: 0;
+    min-width: 204px;
+    padding: 10px;
+    position: absolute;
+    top: 38px;
+    width: 100%;
+}
+.mfContainer li {
+	background: url("img/bar.png") no-repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+	cursor: pointer;
+	height: 36px;
+	list-style: none outside none;
+	line-height: 36px;
+	padding-left: 6px;
+}
+.mfContainer li:hover {
+	background: url("img/active-bar.png") no-repeat scroll 0 0 transparent;
+}
+.mfContainer li.selected {
+	background: #444444;
+}
+.mfContainer .dropDownForm .comment {
+	border: 1px solid #999999;
+	margin-bottom: 10px;
+	height: 58px;
+    width: 202px;
+}
+ul.dropDown {
+	margin: 0 0 10px 0;
+	padding: 0px;
+}
+.submitStatus {
+    background: url("img/bar.png") no-repeat scroll 0 0 #888888;
+    border: medium none;
+    border-radius: 11px 11px 11px 11px;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bolder;
+    height: 23px;
+    width: 128px;
+}
+.submitStatus:hover{
+	background: none repeat scroll 0 0 #444444;
+    color: #FFFFFF;
+    cursor: pointer;
+}
